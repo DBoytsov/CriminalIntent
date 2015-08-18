@@ -26,6 +26,6 @@ public class CrimeActivity extends SingleFragmentActivity {
 
     @Override
     protected Fragment createFragment() {
-        return null;
+        return new CrimeFragment();
     }
 }
